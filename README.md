@@ -1,24 +1,13 @@
-# README
+# Batch 1616 Advanced Routes
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Livecode for Advanced Routes Overview
 
-Things you may want to cover:
+Key Point for this lecture:
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- Custom routes
+    - Member (restaurants/:id/**custom page**)
+        - Pages that belong to a particular object (i.e. restaurant/:id/chef
+    - Collection (restaurants/top)
+        - Customer pages that do not require an id (i.e. a list etc)
+     
+- Nested Roues
