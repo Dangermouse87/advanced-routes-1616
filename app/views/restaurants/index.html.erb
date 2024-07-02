@@ -2,13 +2,12 @@
 
 <h1>Restaurants</h1>
 
-<div id="restaurants">
-  <% @restaurants.each do |restaurant| %>
-    <%= render restaurant %>
-    <p>
-      <%= link_to "Show this restaurant", restaurant %>
-    </p>
-  <% end %>
-</div>
+    <div class="col-10 row justify-content-center" id="restaurants">
+      <div class="col-12 row">
+        <% @restaurants.each do |restaurant| %>
+          <%= render restaurant %>
+        <% end %>
+      </div>
+    <%= link_to "New restaurant", new_restaurant_path, class: "btn btn-primary col-3" %>
+    <div>
 
-<%= link_to "New restaurant", new_restaurant_path %>
